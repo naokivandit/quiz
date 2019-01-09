@@ -1,4 +1,4 @@
-<?php $pdo=new PDO('mysql:host=heroku_981e58cf422b0c3;dbname=us-cdbr-iron-east-01.cleardb.net;charset=utf8','b3b0c92eb2969f','29c35b9b'); ?>
+<?php $pdo=new PDO('mysql:host=us-cdbr-iron-east-01.cleardb.net;dbname=heroku_981e58cf422b0c3;charset=utf8','b3b0c92eb2969f','29c35b9b'); ?>
 
 <?php
 $sql=$pdo->prepare('SELECT * FROM t_mzsoft_score ORDER BY i_correct_anser_number DESC');
